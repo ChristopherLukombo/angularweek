@@ -1,3 +1,0 @@
-class pokemon {
-    constructor(nom) {}
-}
