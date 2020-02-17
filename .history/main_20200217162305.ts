@@ -1,0 +1,20 @@
+import {Pokemon} from "./pokemon";
+import {Attack} from "./attack";
+import { Game } from "./game";
+
+
+const pokemon1 = new Pokemon('toto1', 23, 1, 12, 12);
+
+const pokemon2 = new Pokemon('toto2', 24, 23, 23, 13);
+
+const attacksList = [
+    new Attack('bbule de neige', 12, 12)
+];
+
+pokemon1.setAttacks(attacksList);
+
+let finished = false;
+
+const game = new Game(null, null);
+
+game.launch();
